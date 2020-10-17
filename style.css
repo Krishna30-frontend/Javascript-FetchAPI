@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url(Montserrat-SemiBold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat';
+  outline: none;
+  border: none;
+}
+
+html,
+body {
+  height: 100%;
+  background: #fff;
+}
+
+
+.header {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #000;
+
+}
+
+
+
+.intro {
+  padding-left: 15px;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.intro small {
+  font-size: 1rem;
+  color: gray;
+}
+
+.post{
+  padding-left: 15px;
+  border-radius: 17px;
+  padding: 10px;
+  background: #fffffa;
+  margin: 5px;
+}
+
+.post h1{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.post p{
+  color: gray;
+  font-size: 1rem;
+  line-height: 1.5;
+}
